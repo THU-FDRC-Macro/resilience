@@ -6,10 +6,10 @@ from economicsl import Simulation
 import sys
 
 sys.path.append("../")
-from resilience_ch.markets import AssetMarket
-from resilience_ch.agents import Bank
-from resilience_ch.contracts import Deposit, Other, AssetCollateral
-from resilience_ch.parameters import Parameters as defaultparam
+from resilience.markets import AssetMarket
+from resilience.agents import Bank
+from resilience.contracts import Deposit, Other, AssetCollateral
+from resilience.parameters import Parameters as defaultparam
 
 NBANKS = 48
 
